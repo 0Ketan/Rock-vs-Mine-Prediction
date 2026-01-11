@@ -26,7 +26,7 @@ The objective of this project is to build a machine learning model that classifi
 - `README.md` – Project documentation
 
 ## Results
-- Achieved an accuracy of **XX%** on the test dataset
+- Achieved an accuracy of **76.1%** on the test dataset
 
 ## How to Run
 1. Clone the repository  
