@@ -1,6 +1,6 @@
-from sklearn import svm
+from sklearn.linear_model import LogisticRegression
 
 
 def create_model():
-    classifier = svm.SVC(kernel='linear')
-    return classifier
+    model = LogisticRegression()
+    return model

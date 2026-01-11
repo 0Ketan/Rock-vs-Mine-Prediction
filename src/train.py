@@ -4,7 +4,7 @@ from sklearn.metrics import accuracy_score
 
 
 def main():
-    df = load_data("dataset/diabetes.csv")
+    df = load_data("dataset/sonar_data.csv")
 
     X_train, X_test, y_train, y_test = split_data(df)
 
