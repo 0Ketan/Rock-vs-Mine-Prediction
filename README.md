@@ -1,33 +1,32 @@
-# Diabetes Prediction Using SVM
+# Rock vs Mine Prediction Using Logistic Regression
 
 ## Problem Statement
-The objective of this project is to build a machine learning model that predicts whether a patient has diabetes based on medical diagnostic measurements.
+The objective of this project is to build a machine learning model that classifies sonar signals as either a rock or a mine based on signal frequency data.
 
 ## Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- Support Vector Machine (SVM)
+- Logistic Regression
 
 ## Approach
-- Loaded and analyzed the diabetes dataset
-- Split the dataset into training and testing sets
-- Applied feature scaling using StandardScaler
-- Trained a linear Support Vector Machine classifier
-- Evaluated the model using accuracy metric
-- Ensured no data leakage by fitting the scaler only on training data
+- Loaded the sonar dataset containing 60 numerical features
+- Separated features and target labels
+- Split the data into training and testing sets
+- Trained a Logistic Regression classifier
+- Evaluated model performance using accuracy metric
 
 ## Project Structure
-- `dataset/` – Contains the diabetes dataset
+- `dataset/` – Contains the sonar dataset
 - `src/`
-  - `data_preprocessing.py` – Data loading, splitting, and scaling
-  - `model.py` – SVM model definition
+  - `data_preprocessing.py` – Data loading and train-test split
+  - `model.py` – Logistic Regression model definition
   - `train.py` – Model training and evaluation
 - `requirements.txt` – Project dependencies
 - `README.md` – Project documentation
 
 ## Results
-- Achieved an accuracy of **77%** on the test dataset
+- Achieved an accuracy of **XX%** on the test dataset
 
 ## How to Run
 1. Clone the repository  
